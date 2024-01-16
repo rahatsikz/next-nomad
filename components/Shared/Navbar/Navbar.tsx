@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <div
-      className='xl:h-[100vh] h-[50vh] bg-cover bg-no-repeat'
+      className='xl:h-[100vh] h-[50vh]  bg-cover bg-no-repeat'
       style={{
         backgroundImage: `url(${bgBanner.src})`,
       }}
@@ -37,7 +37,7 @@ const Navbar = () => {
           height: navSize,
           transition: "all 1s",
         }}
-        className='fixed w-full  h-[10rem]'
+        className='fixed w-full  h-[10rem] z-50'
       >
         <div className='relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]'>
           <nav
